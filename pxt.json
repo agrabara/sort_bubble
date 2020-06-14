@@ -1,5 +1,5 @@
 {
-    "name": "sort_bubble",
+    "name": "sortowanie bąbelkowe",
     "description": "",
     "dependencies": {
         "core": "*",

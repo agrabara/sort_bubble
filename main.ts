@@ -52,5 +52,5 @@ function doRysowanie() {
         }
     }
     serial.writeNumbers(list)
-    basic.pause(100)
+    basic.pause(500)
 }
