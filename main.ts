@@ -1,3 +1,14 @@
+/**
+ * Progrsam z 10 zajęć CoderDojo-Micto:bit 
+ * zdalnie 2020.06.13 obecni: Maks, Rafał, Michał
+ * 
+ * Sortowanie bąbelkowe
+ *  https://pl.wikipedia.org/wiki/Sortowanie_b%C4%85belkowe
+ *  
+ * Polega na porównywaniu dwóch kolejnych elementów i zamianie ich kolejności, 
+ * jeżeli zaburza ona porządek, w jakim się sortuje tablicę. 
+ * Sortowanie kończy się, gdy podczas kolejnego przejścia nie dokonano żadnej zmiany.
+ */
 let list = [4, 3, 2, 5, 1]
 let wiersz = 0
 let tymczasowa = 0
@@ -31,6 +42,7 @@ input.onButtonPressed(Button.A, function () {
             }
         }
     }
+// dla dużej tablicy wyników - prezentacja w kosoli symulatora
     serial.writeValue("Wynik=", wynik)
 })
 
@@ -51,6 +63,7 @@ function doRysowanie() {
             wiersz++
         }
     }
+// dla dużej tablicy wyników - prezentacja w kosoli symulatora
     serial.writeNumbers(list)
     basic.pause(500)
 }
